@@ -36,8 +36,8 @@ Note that our preprocessing is slightly different from the standard preprocessin
 
 For creating parallel data, learning and applying BPEs on all relevant files at once, use the `multi_preprocessing.sh`
 ```
-# bash multi_preprocessing.sh [src] [srcx-tgt]
-bash multi_preprocessing.sh de dex-en
+# bash multi_preprocess.sh [src] [srcx-tgt]
+bash multi_preprocess.sh de dex-en
 ```
 
 Then use `multi_binarize.sh` to generate joint multilingual dictionary and binary files for fairseq to use
